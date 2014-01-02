@@ -9,6 +9,8 @@ Features:
 - Filterable columns
 - Repeatable headers
 
+[View the running demo](http://bgerm.github.io/react-table-sorter-demo/).
+
 ## Example ##
 
     var CONFIG = {
@@ -24,10 +26,16 @@ Features:
 
 ## Running the Demo ##
 
-    gem install sinatra
-    ruby server.rb
-    
-View at: [http://localhost:4567/](http://localhost:4567/).
+The demo uses an in-browser JSX Transformer; therfore, the code cannot be
+run without a web server (or your browser will complain that "Cross origin
+requests are only supported for HTTP").
+
+[node-static](https://github.com/cloudhead/node-static) is a quick solution.
+
+    npm install -g node-static
+    static
+
+And now view at: [http://localhost:8080/](http://localhost:8080/).
 
 ## Screenshots ##
 
