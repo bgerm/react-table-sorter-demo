@@ -194,9 +194,6 @@ var DataSourceSelectors = React.createClass({
       limit: event.target.value
     });
   },
-  dataSource: function() {
-    return "/api/" + this.state.source + "?limit=" + this.state.limit;
-  },
   render: function() {
     return (
       <div id="tools">
@@ -217,7 +214,7 @@ var DataSourceSelectors = React.createClass({
 });
 
 function urlForDataSource(source) {
-  return "/json/" + source.source + "_" + source.limit + ".json";
+  return "json/" + source.source + "_" + source.limit + ".json";
 }
 
 var App = React.createClass({
