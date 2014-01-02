@@ -62,12 +62,9 @@ var TableSorter = React.createClass({
   },
   sortColumn: function(column) {
     return function(event) {
-      var columns = this.state.columns;
-      var currentColumn = this.state.sort.column;
-      var currentSortOrder = this.state.sort.order;
-      var newSortOrder = (currentSortOrder == "asc") ? "desc" : "asc";
+      var newSortOrder = (this.state.sort.order == "asc") ? "desc" : "asc";
 
-      if (currentColumn != column) {
+      if (this.state.sort.column != column) {
           newSortOrder = this.state.columns[column].defaultSortOrder;
       }
 
