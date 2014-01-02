@@ -217,7 +217,7 @@ var DataSourceSelectors = React.createClass({
 });
 
 function urlForDataSource(source) {
-  return "/api/" + source.source + "?limit=" + source.limit;
+  return "/json/" + source.source + "_" + source.limit + ".json";
 }
 
 var App = React.createClass({
