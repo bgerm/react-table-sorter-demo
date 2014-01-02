@@ -39,4 +39,4 @@ And now view at: [http://localhost:8080/](http://localhost:8080/).
 
 ## Screenshots ##
 
-![Demo Screenshot](http://i.imgur.com/vy5sMuW.png)
+[![Demo Screenshot](http://i.imgur.com/vy5sMuW.png)](http://bgerm.github.io/react-table-sorter-demo/)
