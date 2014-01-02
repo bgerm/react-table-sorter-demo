@@ -5,8 +5,8 @@ var CONFIG = {
   sort: { column: "col2", order: "desc" },
   columns: {
     col1: { name: "Col1", filterText: "", defaultSortOrder: "desc"},
-    col2: { name: "Col2", filterText: "", defaultSortOrder: "desc"},
-    col3: { name: "Col3", filterText: "", defaultSortOrder: "desc"}
+    col2: { name: "Col2", filterText: ">= 300", defaultSortOrder: "desc"},
+    col3: { name: "Col3", filterText: "s", defaultSortOrder: "desc"}
   }
 };
 
